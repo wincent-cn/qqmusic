@@ -1,0 +1,851 @@
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family: "poppin,Tahoma,Arial,\5FAE\8F6F\96C5\9ED1,sans-serif";
+}
+.top-bar-wrapper{
+    height: 142px;
+    background-color: #fff;
+}
+.top-bar{
+    width: 1250px;
+    height: 142px;
+    margin: 0 auto;
+    
+}
+.top-bar-cover{
+    height:90px;
+    border-bottom: 1px #eff4fa solid;
+    margin-left: 25px;
+
+}
+.qqmusiclogo{
+    float: left;
+    margin-top: 24px;
+}
+.top-bar-cover-left{
+    float: left;
+    margin-left: 32px;
+}
+.top-bar-cover-left li{
+    line-height: 90px;
+    float: left;
+    padding:0 20px;
+}
+.top-bar-cover-left li:first-child{
+    background-color: #31c27c;
+}
+.top-bar-cover-left li:first-child a{
+    color: #eff4fa;
+}
+.top-bar-cover-left a{
+    font-size: 18px;
+    color: black;
+}
+.top-bar-cover-left a:hover{
+    color: #31c27c;
+    text-decoration: none;
+}
+.top-bar-cover-right{
+    float: right;
+}
+.toptip
+{
+    height:160px;
+    width: 154px;
+    box-shadow:0 0 5px rgba(0,0,0,.3);
+    border-radius: 5px;
+    position: absolute;
+    top: 68px;
+    display: none;
+    background: #ffffff;
+    z-index: 9999999;
+}
+.toptip p:first-child
+{
+    padding-top: 6px;
+}
+.toptip p
+{
+    width: 130px;
+    margin: 0 0 0 33px;
+    padding: 2px 1px;
+    line-height: 32px;
+
+}
+.toptip p i{
+   position: absolute;
+   left: 8px;
+ 
+}
+.toptip .iconfont{
+   color: #31c27c;
+}
+.toptipbtn
+{
+
+    border-radius: 10px;
+    margin-left: 9px;
+}
+.toptipbtn a
+{
+    display: block;
+    border-radius: 10px;
+    background: #31c27c;
+    color: #ffffff;
+    width: 135px;
+    font-size: 6px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 5px;
+}
+.toptipwrapper:hover  .toptip{
+    display: block;
+}
+.toptip a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+.search{
+    float: left;
+    margin-left: 30px;
+    width: 207px;
+    height: 36px;
+    border: 1px solid #c9c9c9;
+    border-radius: 3px;
+    margin-top: 26px;
+    padding-left: 11px;
+    line-height: 36px;
+}
+.searchlogo{
+    float: right;
+   margin-top: 3px;
+   margin-right: 8px;
+
+}
+.search input{
+    outline: none;
+    border-width: 0px;
+    width: 175px;
+   
+}
+.search #search{
+    font-size: 14px;
+}
+.searchbtn{
+    background-color: #fff;
+    border-width: 0px;
+
+}
+i.iconfont{
+    font-size:19px;
+}
+.pic
+{
+    float: left;
+    margin-left:23px;
+    margin-top: 24px;
+}
+.pic1
+{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+.button,.button2{
+    float: left;
+}
+.button {
+    width: 95px;
+    height: 38px;
+    padding-left: 10px;
+    padding-right: 15px;
+    border: 1px solid #31c27c;
+    margin-left: 10px;
+    margin-top: 24px;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 3px;
+    background: #31c27c; 
+    position: relative;
+}
+ .button .up,.down{
+    position: absolute;
+    right: 8px;
+    top: -3px;
+}
+
+.button a
+{
+    color: #eff4fa;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 38px;
+
+}
+.buttonafter{
+    margin-top: 0px;
+    margin-left: -11px;
+    display: none;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: #c9c9c9;
+    border-width: 1px;
+    background:#ffffff;
+}
+.buttonafter2{
+    border-top: 0px;
+}
+.buttonafter a{
+    color: #000000;
+}
+
+.button:hover .buttonafter {
+    display: block;
+    
+}
+.buttonafter:hover{
+    background-color: #31c27c;
+}
+.buttonafter:hover a{
+    color: #eff4fa;
+}
+.button:hover a,.button2:hover a
+{
+    text-decoration: none;
+}
+.button .up,.button2 .up2
+{
+    display: none;
+}
+.button:hover .up,.button2:hover .up2
+{
+    display: inline;
+}
+.button:hover .down,.button2:hover .down2
+{
+    display: none;
+}
+.button2{
+    border: 1px solid #c9c9c9;
+    width: 56px;
+    height: 38px;
+    padding-left: 10px;
+    padding-right: 15px;
+    border-radius: 3px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 24px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 38px;
+    position: relative;
+}
+.up2,.down2{
+    position: absolute;
+    right: 5px;
+    top: -3px;
+}
+.button2 a{
+    color: #000000;
+    font-size: 13px;
+    font-weight: 500;
+}
+.button2:hover
+{
+    background: #31c27c;
+}
+.button2:hover > a
+{
+    color: #eff4fa;
+    text-decoration: none;
+}
+.button2after{
+    margin-top: 0px;
+    margin-left: -11px;
+    display: none;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: #c9c9c9;
+    border-width: 1px;
+    background:#ffffff;
+
+}
+.button2after2{
+    border-top: 0px;
+}
+.button2:hover .button2after{
+    display: block;
+}
+.top-bar-under{
+    width: 1250px;
+    height: 51px;
+    margin: 0 auto;
+    /* border-top: 1px #eff4fa solid; */
+}
+.nav{
+    width: 1020px;
+    margin-left: 230px;
+    height: 51px;
+    line-height: 51px;
+    font-size: 15px;
+    padding-left: 25px;
+    float: left;
+    /* background-color: red; */
+    
+}
+.nav li{
+    float: left;
+    margin-right: 48px;
+}
+.nav a{
+    color: #000000;
+}
+.nav a:hover{
+    text-decoration: none;
+    color:#31c27c ;
+}
+main
+{
+    width: 100%;
+    height: 532px;
+    background-image: url(../img/qqmusic截图2.png);
+    position: relative;
+}
+main .mainbody{
+    width: 1200px;
+    margin: 0 auto;
+    height: 532px;
+    /* background-color: #bafcba; */
+}
+.title{
+    width: 1200px;
+    height: 40px;
+    padding-top: 50px;
+    padding-bottom: 24px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 10px;
+}
+.littlenav{
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    font-size: 15px;
+    text-align: center;
+}
+.littlewrapper{
+    height: 50px;
+    display: inline-block;
+}
+.littlenav li{
+    float: left;
+    margin:0 24px;
+}
+.littlewrapper a{
+    color: black;
+}
+.littlenav a:hover{
+    color: #31c27c;
+    text-decoration: none;
+}
+.first a,
+.first a:hover
+{
+    color: #31c27c;
+}
+.video
+{
+    width: 1200px;
+    height: 310px;
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    /* 设置过渡效果 */
+    transition: 0.6s all;
+}
+.imgmain
+{
+    width: 224px;
+    height: 283px;
+    margin-right: 16px;
+    color: #7f7f7f;
+}
+.imgvideo
+ {  
+    overflow: hidden; 
+    height: 224px;
+    width: 224px;
+    background: black;
+    position: relative;
+}
+ 
+.musicbotton{
+    position: absolute;
+    top: 36%;
+    left: 34%;
+    display: none
+}
+
+
+.imgmain img
+{
+    width: 100%;
+    height: 100%;
+    transition: all 0.6s;
+    cursor: pointer;
+    overflow: hidden;
+}
+.imgmain img:hover
+{
+    transform: scale(1.1);
+    opacity:0.8;
+}
+.imgmain img:hover+ .musicbotton
+{
+    display: block;
+    transform: scale(1.1);
+    opacity:0.8;
+    width: 70px;
+}
+.undertitle a
+{
+    display: block;
+    color: black;
+    font-size: 14px;
+    margin-top:16px;
+    margin-bottom: 5px;
+}
+.imgmain  a:hover
+{
+    color: #31c27c;
+    text-decoration: none;
+}
+.underpoint
+{
+    position: absolute;
+    bottom: 28px;
+    left: 47.5%;
+}
+.underpoint li
+{
+    width: 8px;
+    height: 8px;
+    background: rgba(225,225,225,1);
+    border-radius: 50%;
+    float: left;
+    margin: 0 10px;
+}
+.underpoint li:hover{
+    background-color:#a5a3a3 ;
+}
+.underpoint .point1{
+    background-color:#a5a3a3 ;
+}
+.mainleft
+{
+    width: 70px;
+    height: 100px;
+    position: absolute;
+    top: 40.6%;
+    left: -70px;
+    transition:all 0.5s;
+}
+.left
+{
+    height: 100%;
+    width: 100%;
+    background: #e5e7ea;
+    font-size: 30px;
+    border: none;
+}
+.left:hover,.right:hover
+{
+    background: #dcdfe3;
+}
+ .mainright
+{
+    width: 70px;
+    height: 100px;
+    position: absolute;
+    right: -70px;
+    top:40.6%;
+    transition:all 0.5s;
+}
+.right
+{
+    height: 100%;
+    width: 100%;
+    background: #e5e7ea;
+    font-size: 30px;
+    border: none;
+}
+main:hover .mainright
+{
+    right: 0;
+    transition:all 0.5s;
+}
+main:hover .mainleft
+{
+    left: 0;
+    transition:all 0.5s;
+} 
+
+
+
+.mains
+{
+    width: 100%;
+    height: 566px;
+    background-image: url(../img/qqmusic截图4.png);
+    position: relative;
+}
+.mains .mainbody{
+    width: 1200px;
+    margin: 0 auto;
+    height: 566px;
+}
+.title{
+    width: 1200px;
+    height: 40px;
+    padding-top: 50px;
+    padding-bottom: 24px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 10px;
+}
+.littlenav{
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    font-size: 15px;
+    text-align: center;
+}
+.littlewrapper{
+    height: 50px;
+    display: inline-block;
+}
+.littlenav li{
+    float: left;
+    margin:0 24px;
+}
+.littlewrapper a{
+    color: black;
+}
+.littlenav a:hover{
+    color: #31c27c;
+    text-decoration: none;
+}
+.playbutton a{
+    display: block;
+    position: absolute;
+    width: 121px;
+    height: 36px;
+    border: 1px solid #c9c9c9;
+    border-radius: 2px;
+    margin-top: -10px;
+    float: left;
+    line-height: 36px;
+    font-size: 14px;
+}
+.playbutton .iconfont{
+    color: #999999;
+    position: absolute;
+    left: 16px;
+    font-size: 30px;
+}
+.playbutton span{
+    display: block;
+    margin-left: 19px;
+    color: #000000;
+}
+.playbutton a:hover{
+    background-color: #EEEEEE;
+}
+.first a,
+.first a:hover
+{
+    color: #31c27c;
+}
+.videos
+{
+    width: 1200px;
+    height: 310px;
+    position: absolute;
+    transition: 0.6s all;
+}
+.imgmains
+{
+    margin-right: 16px;
+    margin-top: 17px;
+    float: left;
+    width: 379.984px;
+    height: 86px;
+    padding-bottom: 13px;
+    margin-right: 30px;
+    color: #7f7f7f;
+    border-bottom: 1px solid #F2F2F2;
+}
+.imgmains3{
+    margin-right: 0;
+}
+.imgvideos
+ {  
+    overflow: hidden; 
+    height: 86px;
+    width: 86px;
+    background: black;
+    float: left;
+    margin-right: 14px;
+    position: relative;
+}
+.musicbottons{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom:0;
+    margin: auto;
+    width: 25px;
+    height: 25px;
+    display: none
+}
+.musicbottons img{
+    height:100%;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+
+.imgmains img
+{
+    width: 100%;
+    height: 100%;
+    transition: all 0.6s;
+    cursor: pointer;
+    overflow: hidden;
+}
+.imgmains img:hover
+{
+    transform: scale(1.1);
+    opacity:0.8;
+}
+.imgmains img:hover+ .musicbottons
+{
+    display: block;
+    transform: scale(1.1);
+    opacity:0.8;
+    width: 45px;
+    height: 45px;
+}
+.undertitles{
+    float: left;
+}
+.undertitles a
+{
+    display: block;
+    color: black;
+    font-size: 14px;
+    margin-top:21px;
+}
+.undertitles .a2{
+    color: rgb(168, 168, 168);
+    margin-top: 10px;
+}
+.imgmains  a:hover
+{
+    color: #31c27c;
+    text-decoration: none;
+}
+.time{
+    width: 38.766px;
+    height: 86px;
+    line-height: 86px;
+    font-size: 14px;
+    color: rgb(168, 168, 168);
+    float: right;
+    
+}
+.imgmains-last{
+    border: none;
+    position: relative;
+}
+.underpoints
+{
+    position: absolute;
+    left: 50%;
+    margin-left:-98px;
+    bottom: 26px;
+}
+.underpoints li
+{
+    width: 8px;
+    height: 8px;
+    background: rgba(225,225,225,1);
+    border-radius: 50%;
+    float: left;
+    margin: 0 10px;
+}
+.underpoints li:hover{
+    background-color:#a5a3a3 ;
+}
+.underpoints .point1{
+    background-color:#a5a3a3 ;
+}
+.mainleft
+{
+    width: 70px;
+    height: 100px;
+    position: absolute;
+    top: 40.6%;
+    left: -70px;
+    transition:all 0.5s;
+}
+.left
+{
+    height: 100%;
+    width: 100%;
+    background: #e5e7ea;
+    font-size: 30px;
+    border: none;
+}
+.left:hover,.right:hover
+{
+    background: #dcdfe3;
+}
+ .mainright
+{
+    width: 70px;
+    height: 100px;
+    position: absolute;
+    right: -70px;
+    top:40.6%;
+    transition:all 0.5s;
+}
+.right
+{
+    height: 100%;
+    width: 100%;
+    background: #e5e7ea;
+    font-size: 30px;
+    border: none;
+}
+.mains:hover .mainright
+{
+    right: 0;
+    transition:all 0.5s;
+}
+.mains:hover .mainleft
+{
+    left: 0;
+    transition:all 0.5s;
+} 
+footer{
+    background-color: #333;
+    color: #999;
+}
+.underlogos{
+    width: 1200px;
+    height: 465.500px;
+    padding-bottom: 45px;
+    border-bottom: 1px solid #353535;
+    margin: 0 auto;
+    font-size: 14px;
+    position: relative;
+}
+.loadingequip{
+    height: 213.500px;
+    float: left;
+}
+.loadingequip p{
+    font-size: 15px;
+    padding-top: 80px;
+    padding-bottom: 43px;
+}
+footer a:hover{
+    text-decoration: none;
+    color:#31c27c ;
+}
+footer a{
+    color: #999;
+}
+.PCvision{
+    float: left;
+}
+.specialproduct{
+    float: left;
+}
+footer .iconfont{
+   font-size: 42px;
+   color: #999;
+}
+.PCvision div{
+    margin-right: 50px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+.specialproduct div{
+    margin-right: 50px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+.loadingequip2{
+    margin-left: 30px;
+}
+.speciallast{
+    margin-top: 18px;
+}
+ .specialproduct .iconfont:hover, .PCvision .iconfont:hover{
+ color: #31c27c;
+}
+.finalline{
+    position: absolute;
+    right: 0px;
+}
+.finalline ul{
+    float: left;
+}
+.finalline ul li{
+    width: 100px;
+    height: 21px;
+    line-height: 100%;
+    margin-bottom: 18px;
+}
+.middleline{
+    position: absolute;
+    top: 383px;
+
+}
+.middleline span,.middleline li
+{
+    float: left;
+}
+.middleline div{
+    margin-bottom:40px;
+}
+.middleline li{
+    margin-right: 30px;
+}
+.middleline span{
+    margin-right: 183px;
+}
+.middleline span div{
+    font-size: 15px;
+}
+.middleline a{
+    font-size: 14px;
+}
+.finalbottom{
+    width: 1200px;
+    margin: 0px auto;
+    padding-bottom: 24px;
+    padding-top: 24px;  
+}
+.finalbottom p{
+    width: 1200px;
+    height: 28px;
+    text-align: center;
+}
