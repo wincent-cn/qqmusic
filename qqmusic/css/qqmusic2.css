@@ -355,15 +355,22 @@ main .mainbody{
 {
     color: #31c27c;
 }
-.video
+.mainbody{
+    height: 532px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.mainimg
 {
     width: 1200px;
     height: 310px;
     display: flex;
     flex-wrap: nowrap;
     position: absolute;
-    /* 设置过渡效果 */
     transition: 0.6s all;
+    left: 0px;
 }
 .imgmain
 {
@@ -422,13 +429,13 @@ main .mainbody{
     color: #31c27c;
     text-decoration: none;
 }
-.underpoint
+.navli
 {
     position: absolute;
     bottom: 28px;
-    left: 47.5%;
+    left:46.5%;
 }
-.underpoint li
+.buttonli
 {
     width: 8px;
     height: 8px;
@@ -437,12 +444,12 @@ main .mainbody{
     float: left;
     margin: 0 10px;
 }
-.underpoint li:hover{
-    background-color:#a5a3a3 ;
+.navli li:hover{
+    background-color:#a7a7a7 ;
 }
-.underpoint .point1{
+/* .underpoint .point1{
     background-color:#a5a3a3 ;
-}
+} */
 .mainleft
 {
     width: 70px;
@@ -491,7 +498,6 @@ main:hover .mainleft
     left: 0;
     transition:all 0.5s;
 } 
-
 
 
 .mains
@@ -695,54 +701,7 @@ main:hover .mainleft
 .underpoints .point1{
     background-color:#a5a3a3 ;
 }
-.mainleft
-{
-    width: 70px;
-    height: 100px;
-    position: absolute;
-    top: 40.6%;
-    left: -70px;
-    transition:all 0.5s;
-}
-.left
-{
-    height: 100%;
-    width: 100%;
-    background: #e5e7ea;
-    font-size: 30px;
-    border: none;
-}
-.left:hover,.right:hover
-{
-    background: #dcdfe3;
-}
- .mainright
-{
-    width: 70px;
-    height: 100px;
-    position: absolute;
-    right: -70px;
-    top:40.6%;
-    transition:all 0.5s;
-}
-.right
-{
-    height: 100%;
-    width: 100%;
-    background: #e5e7ea;
-    font-size: 30px;
-    border: none;
-}
-.mains:hover .mainright
-{
-    right: 0;
-    transition:all 0.5s;
-}
-.mains:hover .mainleft
-{
-    left: 0;
-    transition:all 0.5s;
-} 
+
 footer{
     background-color: #333;
     color: #999;
@@ -849,3 +808,4 @@ footer .iconfont{
     height: 28px;
     text-align: center;
 }
+

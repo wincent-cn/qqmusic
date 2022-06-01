@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    
-    <meta charset="uft-8">
+<head>   
+    <meta charset="UTF-8">
     <meta name="vieport" content="width=devic-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>QQmusic</title>
@@ -11,6 +10,8 @@
     <link rel="stylesheet" href="../fontawesome/css/all.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../阿里图标/iconfont.css">
+    <link rel="icon" href="favicon.ico">   
+    <script type="text/javascript" src="../js/qqmusic2.js"></script>
 </head>
 <body>
     <header>
@@ -83,6 +84,16 @@
     </header>
      
     <main>
+        <div  id="left" class="mainleft">
+            <button class="left">
+                <i class="iconfont">&#xe70a;</i>
+            </button>
+        </div>
+        <div id="right" class="mainright">
+            <button class="right">
+                <i class="iconfont">&#xe700;</i>
+            </button>
+        </div>
         <div class="mainbody">
             <div class="title">歌单推荐</div>
             <div class="littlenav">
@@ -95,7 +106,7 @@
                     <li><a href="javascript:;">乐器</a></li>
                 </ul>
             </div>
-            <div class="video">
+            <div id="mainimg" class="video mainimg">
                 <div class="imgmain">
                     <div class="imgvideo">
                         <a href="javascript:;"><img src="../img/300.webp" alt="">
@@ -151,14 +162,84 @@
                     <div class="undertitle"><a href="javascript:;">王玉萌 | 秋日花落 岁月无声</a>
                         播放量：41.5万</div>
                 </div>
+                <div class="imgmain">
+                    <div class="imgvideo">
+                        <a href="javascript:;"><img src="../img/轮播图a.jpg" alt="">
+                        <div class="musicbotton">
+                            <img src="../img/music.png" alt="">
+                        </div>
+                        </a>
+                    </div>
+                    <div class="undertitle"><a href="javascript:;">小众PUBERTY│山海入怀的浪漫</a>
+                        播放量：193.2万</div>
+                </div>
+                <div class="imgmain">
+                    <div class="imgvideo">
+                        <a href="javascript:;"><img src="../img/轮播图b.jpg" alt="">
+                        <div class="musicbotton">
+                            <img src="../img/music.png" alt="">
+                        </div>
+                        </a>
+                    </div>
+                    <div class="undertitle"><a href="javascript:;">流行 | 释放压力时必备歌单</a>
+                        播放量：6216.2万</div>
+                </div>
+                <div class="imgmain">
+                    <div class="imgvideo">
+                        <a href="javascript:;"><img src="../img/轮播图c.jpg" alt="">
+                        <div class="musicbotton">
+                            <img src="../img/music.png" alt="">
+                        </div>
+                        </a>
+                    </div>
+                    <div class="undertitle"><a href="javascript:;">国粹戏腔 | 戏已开腔 怎叹风华</a>
+                        播放量：1606.3万</div>
+                </div>
+                <div class="imgmain">
+                    <div class="imgvideo">
+                        <a target="blank" href="../study/39_奔跑的少女sprite.html"><img src="../img/轮播图d.jpg" alt="">
+                        <div class="musicbotton">
+                            <img src="../img/music.png" alt="">
+                        </div>
+                        </a>
+                    </div>
+                    <div class="undertitle"><a target="_blank" href="javascript:;">易烊千玺1128♡二十又一盛意相遇</a>
+                        播放量：195.1万</div>
+                </div>
+                <div class="imgmain">
+                    <div class="imgvideo">
+                        <a href="javascript:;"><img src="../img/轮播图e.jpg" alt="">
+                        <div class="musicbotton">
+                            <img src="../img/music.png" alt="">
+                        </div>
+                        </a>
+                    </div>
+                    <div class="undertitle"><a href="javascript:;">王玉萌 | 秋日花落 岁月无声</a>
+                        播放量：41.5万</div>
+                </div>
+                <div class="imgmain">
+                    <div class="imgvideo">
+                        <a href="javascript:;"><img src="../img/轮播图f.png" alt="">
+                        <div class="musicbotton">
+                            <img src="../img/music.png" alt="">
+                        </div>
+                        </a>
+                    </div>
+                    <div class="undertitle"><a href="javascript:;">王玉萌 | 秋日花落 岁月无声</a>
+                        播放量：41.5万</div>
+                </div>
         </div>
-        <div class="underpoint-bar">
-            <ul class="underpoint">
-                <li class="point1"></li>
-                <li class="point2"></li>
-                <li class="point3"></li>
-            </ul>
-        </div>
+        
+        
+    <ul class="navli">
+        <li class="buttonli"></li>
+        <li class="buttonli"></li>
+        <li class="buttonli"></li>
+    </ul>     
+    </main>
+    
+    
+    <main class="mains">
         <div  id="left" class="mainleft">
             <button class="left">
                 <i class="iconfont">&#xe70a;</i>
@@ -169,10 +250,6 @@
                 <i class="iconfont">&#xe700;</i>
             </button>
         </div>
-    </main>
-    
-    
-    <main class="mains">
         <div class="mainbody">
             <div class="title">新歌首发</div>
             <div class="littlenav">
@@ -326,16 +403,6 @@
                 <li class="point6"></li>
                 <li class="point7"></li>
             </ul>
-        </div>
-        <div  id="left" class="mainleft">
-            <button class="left">
-                <i class="iconfont">&#xe70a;</i>
-            </button>
-        </div>
-        <div id="right" class="mainright">
-            <button class="right">
-                <i class="iconfont">&#xe700;</i>
-            </button>
         </div>
     </main>
     <footer>
